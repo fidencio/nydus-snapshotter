@@ -74,9 +74,9 @@ spec:
           preStop:
             exec:
               command:
-              - "bash"
-              - "-c"
-              - |
+              - bash
+              - -c
+              - |-
                 /opt/nydus-artifacts/opt/nydus/snapshotter.sh cleanup
         command: 
          - bash
